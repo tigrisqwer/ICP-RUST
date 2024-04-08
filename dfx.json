@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "http_outcall_backend": {
+      "candid": "src/http_outcall_backend/http_outcall_backend.did",
+      "package": "http_outcall_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
